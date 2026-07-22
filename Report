@@ -1,0 +1,28 @@
+DecodeLabs AI Internship - Project 2: Data Classification Using AI
+Algorithm: K-Nearest Neighbors (KNN) | Dataset: Iris
+=================================================================
+
+Total samples          : 150
+Features               : ['sepal length (cm)', 'sepal width (cm)', 'petal length (cm)', 'petal width (cm)']
+Classes                : [np.str_('setosa'), np.str_('versicolor'), np.str_('virginica')]
+Train / Test split     : 120 / 30 (80/20, stratified)
+Optimal K (from elbow) : 1
+
+Accuracy               : 96.67%
+F1 Score (macro avg)   : 0.9666
+
+Confusion Matrix:
+[[10  0  0]
+ [ 0 10  0]
+ [ 0  1  9]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+      setosa       1.00      1.00      1.00        10
+  versicolor       0.91      1.00      0.95        10
+   virginica       1.00      0.90      0.95        10
+
+    accuracy                           0.97        30
+   macro avg       0.97      0.97      0.97        30
+weighted avg       0.97      0.97      0.97        30
